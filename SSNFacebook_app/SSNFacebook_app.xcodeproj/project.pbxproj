@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A3E38B154567D700AAA95C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3E38A154567D700AAA95C /* UIKit.framework */; };
+		08A3E38D154567D700AAA95C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3E38C154567D700AAA95C /* Foundation.framework */; };
+		08A3E38F154567D700AAA95C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3E38E154567D700AAA95C /* CoreGraphics.framework */; };
+		08A3E391154567D700AAA95C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3E390154567D700AAA95C /* CoreData.framework */; };
+		08A3E397154567D700AAA95C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08A3E395154567D700AAA95C /* InfoPlist.strings */; };
+		08A3E399154567D700AAA95C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3E398154567D700AAA95C /* main.m */; };
+		08A3E39D154567D700AAA95C /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3E39C154567D700AAA95C /* WSAppDelegate.m */; };
+		08A3E3A0154567D700AAA95C /* SSNFacebook_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08A3E39E154567D700AAA95C /* SSNFacebook_app.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08A3E386154567D700AAA95C /* SSNFacebook_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSNFacebook_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A3E38A154567D700AAA95C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08A3E38C154567D700AAA95C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08A3E38E154567D700AAA95C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08A3E390154567D700AAA95C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		08A3E394154567D700AAA95C /* SSNFacebook_app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSNFacebook_app-Info.plist"; sourceTree = "<group>"; };
+		08A3E396154567D700AAA95C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08A3E398154567D700AAA95C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08A3E39A154567D700AAA95C /* SSNFacebook_app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSNFacebook_app-Prefix.pch"; sourceTree = "<group>"; };
+		08A3E39B154567D700AAA95C /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
+		08A3E39C154567D700AAA95C /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
+		08A3E39F154567D700AAA95C /* SSNFacebook_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SSNFacebook_app.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A3E383154567D700AAA95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3E38B154567D700AAA95C /* UIKit.framework in Frameworks */,
+				08A3E38D154567D700AAA95C /* Foundation.framework in Frameworks */,
+				08A3E38F154567D700AAA95C /* CoreGraphics.framework in Frameworks */,
+				08A3E391154567D700AAA95C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A3E37B154567D700AAA95C = {
+			isa = PBXGroup;
+			children = (
+				08A3E392154567D700AAA95C /* SSNFacebook_app */,
+				08A3E389154567D700AAA95C /* Frameworks */,
+				08A3E387154567D700AAA95C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08A3E387154567D700AAA95C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A3E386154567D700AAA95C /* SSNFacebook_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A3E389154567D700AAA95C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08A3E38A154567D700AAA95C /* UIKit.framework */,
+				08A3E38C154567D700AAA95C /* Foundation.framework */,
+				08A3E38E154567D700AAA95C /* CoreGraphics.framework */,
+				08A3E390154567D700AAA95C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08A3E392154567D700AAA95C /* SSNFacebook_app */ = {
+			isa = PBXGroup;
+			children = (
+				08A3E39B154567D700AAA95C /* WSAppDelegate.h */,
+				08A3E39C154567D700AAA95C /* WSAppDelegate.m */,
+				08A3E39E154567D700AAA95C /* SSNFacebook_app.xcdatamodeld */,
+				08A3E393154567D700AAA95C /* Supporting Files */,
+			);
+			path = SSNFacebook_app;
+			sourceTree = "<group>";
+		};
+		08A3E393154567D700AAA95C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A3E394154567D700AAA95C /* SSNFacebook_app-Info.plist */,
+				08A3E395154567D700AAA95C /* InfoPlist.strings */,
+				08A3E398154567D700AAA95C /* main.m */,
+				08A3E39A154567D700AAA95C /* SSNFacebook_app-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A3E385154567D700AAA95C /* SSNFacebook_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A3E3A3154567D700AAA95C /* Build configuration list for PBXNativeTarget "SSNFacebook_app" */;
+			buildPhases = (
+				08A3E382154567D700AAA95C /* Sources */,
+				08A3E383154567D700AAA95C /* Frameworks */,
+				08A3E384154567D700AAA95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSNFacebook_app;
+			productName = SSNFacebook_app;
+			productReference = 08A3E386154567D700AAA95C /* SSNFacebook_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A3E37D154567D700AAA95C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = CMD;
+			};
+			buildConfigurationList = 08A3E380154567D700AAA95C /* Build configuration list for PBXProject "SSNFacebook_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08A3E37B154567D700AAA95C;
+			productRefGroup = 08A3E387154567D700AAA95C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A3E385154567D700AAA95C /* SSNFacebook_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A3E384154567D700AAA95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3E397154567D700AAA95C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A3E382154567D700AAA95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3E399154567D700AAA95C /* main.m in Sources */,
+				08A3E39D154567D700AAA95C /* WSAppDelegate.m in Sources */,
+				08A3E3A0154567D700AAA95C /* SSNFacebook_app.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08A3E395154567D700AAA95C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A3E396154567D700AAA95C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08A3E3A1154567D700AAA95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		08A3E3A2154567D700AAA95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08A3E3A4154567D700AAA95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSNFacebook_app/SSNFacebook_app-Prefix.pch";
+				INFOPLIST_FILE = "SSNFacebook_app/SSNFacebook_app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08A3E3A5154567D700AAA95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSNFacebook_app/SSNFacebook_app-Prefix.pch";
+				INFOPLIST_FILE = "SSNFacebook_app/SSNFacebook_app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A3E380154567D700AAA95C /* Build configuration list for PBXProject "SSNFacebook_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A3E3A1154567D700AAA95C /* Debug */,
+				08A3E3A2154567D700AAA95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A3E3A3154567D700AAA95C /* Build configuration list for PBXNativeTarget "SSNFacebook_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A3E3A4154567D700AAA95C /* Debug */,
+				08A3E3A5154567D700AAA95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08A3E39E154567D700AAA95C /* SSNFacebook_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08A3E39F154567D700AAA95C /* SSNFacebook_app.xcdatamodel */,
+			);
+			currentVersion = 08A3E39F154567D700AAA95C /* SSNFacebook_app.xcdatamodel */;
+			path = SSNFacebook_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08A3E37D154567D700AAA95C /* Project object */;
+}
